@@ -199,7 +199,14 @@ section {
 
 .button-wrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.button-wrapper a {
+    text-align: center;
+}
+
 .hero-btn{
     margin: 1rem .5rem;
     padding: 0.5rem;
